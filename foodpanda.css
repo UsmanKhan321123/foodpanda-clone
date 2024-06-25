@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+}
+#header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 50px;
+  padding-top: 15px;
+  box-shadow: 0px 0px 15px 1px grey;
+  z-index: 2;
+  background-color: white;
+}
+#sd1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+#foodpanda {
+  color: rgb(201, 16, 124);
+  font-size: 30px;
+  font-family: "poppins";
+  text-align: center;
+  width: 40px;
+  font-size: 23px;
+  text-align: center;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+#sd2 {
+  margin-left: 51rem;
+  border: 1px solid rgb(201, 16, 124);
+  color: rgb(201, 16, 124);
+  border-radius: 7px;
+  width: 80px;
+  height: 33px;
+}
+#p1 {
+  margin: 8px;
+  text-align: center;
+  font-size: 15px;
+}
+#sd3 {
+  margin-left: 25px;
+  border: 1px solid rgb(201, 16, 124);
+  color: white;
+  border-radius: 7px;
+  width: 80px;
+  height: 33px;
+  background-color: rgb(201, 16, 124);
+}
+#p2 {
+  margin: 8px;
+  text-align: center;
+  font-size: 15px;
+}
+.sdd {
+  display: flex;
+  flex-direction: row;
+}
+.sd4 {
+  margin-left: 25px;
+  width: 80px;
+  height: 33px;
+  border-radius: 7px;
+  padding-left: 5px;
+}
+#sd2:hover {
+  scale: 1.1;
+  background-color: rgba(255, 191, 221, 0.2);
+  font-size: 15px;
+}
+
+#sd3:hover {
+  scale: 1.1;
+  background-color: rgb(161, 3, 56);
+  font-size: 15px;
+}
+.sd4:hover {
+  background-color: rgba(255, 191, 221, 0.2);
+}
+
+#hero {
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+#hero1 {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 650;
+  color: rgb(75, 74, 74);
+}
+#hero2 {
+  width: 45vw;
+  right: 0;
+  margin-top: 65px;
+}
+#hssd2 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 28px;
+}
+#r1[placeholder] {
+  padding-left: 30px;
+  font-size: 15px;
+}
+#locateButton {
+  text-align: center;
+  margin-top: 15px;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  color: rgb(248, 34, 116);
+  font-size: 15px;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+#locatebutton {
+  background-color: white;
+  border-radius: 9px;
+  border: 1px solid rgb(170, 167, 167);
+  border-left: 0px solid grey;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-right: 15px;
+  width: 100px;
+}
+#locatebutton:hover {
+  cursor: pointer;
+}
+
+#FindFood {
+  text-align: center;
+  margin-top: 15px;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+#Findfood {
+  background-color: rgb(248, 34, 116);
+  border-radius: 9px;
+  border: 1px solid rgb(170, 167, 167);
+  margin-right: 15px;
+  width: 100px;
+}
+#Findfood:hover {
+  scale: 1.1;
+  background-color: rgb(150, 28, 48);
+}
+
+#you {
+  font-family: "poppins";
+  font-size: 30px;
+  margin-left: 120px;
+  margin-top: 90px;
+  font-weight: 500;
+}
+#img {
+  width: 100vw;
+  margin-top: 20px;
+  position: absolute;
+}
+#card {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  top: 400px;
+  border-radius: 25px;
+  left: 100px;
+  box-shadow: 0px 0px 13px 1px gray;
+}
+
+#c1 {
+  font-size: 22px;
+  font-family: "poppins";
+  font-weight: 500;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+#c2 {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: "poppins";
+  font-size: 15px;
+  line-height: 25px;
+}
+#btn {
+  width: 100px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 11px;
+  margin-top: 30px;
+  margin-left: 25px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "poppins";
+  color: white;
+  background-color: rgb(248, 82, 110);
+}
+#btn:hover {
+  background-color: rgb(153, 34, 73);
+  scale: 1.1;
+}
+#r {
+  padding-top: 9px;
+}
+#new2 {
+  font-family: "poppins";
+  margin-top: 850px;
+  padding-left: 120px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.cities {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 500px;
+}
+#cities {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+  width: 1300px;
+  padding-top: 600px;
+  margin-top: 60px;
+  margin-left: 30px;
+  border-radius: 30px;
+}
+
+.city {
+  position: absolute;
+  width: 280px;
+  height: 250px;
+  margin-left: 10px;
+  background-color: aqua;
+  top: 0;
+}
+#city2 {
+  margin-left: 340px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+#city3 {
+  margin-left: 660px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+#city4 {
+  margin-left: 980px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+#city1 {
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+.btns{
+
+background-color: blue;
+width: 120px;
+height: 40px;
+border-radius: 20px;
+margin-top: 40px;
+width: 280px;
+height: 250px;
+}
+#text2{
+    font-size: 30px;
+    font-family: "poppins";
+    font-weight: 500;
+    padding-top: 20px;
+    padding-left: 85px;
+    
+}
+#dabba2{
+    display: flex;
+    flex-direction: row;
+    width: 88vw;
+    height: 350px;
+    background-color: rgb(223, 34, 128);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.db2{
+    width: 44vw;   
+}
+#db21p1{
+    font-family:"poppins";
+    font-size: 25px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#db21p2{
+    font-family: "poppins";
+    color:white;
+    width: 350px;
+    font-size: 13px;
+}
+#sp1{
+    display: flex;
+    flex-direction: row;
+}
+#card2{
+  position: absolute;
+  width: 600px;
+  height: 220px;
+  background-color: white;
+  top: 400px;
+  border-radius: 25px;
+  left: 100px;
+  box-shadow: 0px 0px 13px 1px gray;
+  margin-top: 220px;
+}
+
+#paragraphs{
+    height: 300px;
+    margin-top: 900px;
+    padding: 70px;
+    font-family: "poppins";
+    font-weight: 200;
+}
+.citypics:hover{
+  scale: 1.1;
+}
